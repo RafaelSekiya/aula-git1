@@ -22,6 +22,7 @@ https://git-scm.com/download
 - [x] Antes de enviar a resolução, precisamos atualizar o projeto local
 
 - [x] Você precisa voltar um arquivo para um determinado momento da linha do tempo
+- [x] Você precisa recuperar algo deletado
 
 * - `git init` // inicia a linha do tempo
 * - `git add` // adiciona ou atualiza mudanças para irem para a linha do tempo

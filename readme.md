@@ -37,3 +37,12 @@ https://git-scm.com/download
 * - `git clone` // clonar um projeto / repositório 
 * - `git pull` // puxa do repositório remoto
 
+---
+
+* - `para deletar pastas do github` // exemplo de pastas 'Landing' e 'Email'
+
+Primeiro certifique-se que o seu repositório está sincronizado com o repositório remoto: `$ git pull origin master`, (supondo que o branch seja master).
+Então remova a pasta localmente: `$ git rm -r Landing Email.`
+Agora faça um commit das modificações: `$ git commit -m "Remove pastas Landing e Email"`
+Sincronize com repositório remoto: `$ git push origin master`
+Após essas mudanças o repositório remoto deve estar sem as pastas Landing e Email.
